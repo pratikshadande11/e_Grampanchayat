@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to E-Grampanchayat"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:padding="20sp"
+            android:background="@color/purple"
+            android:textFontWeight="900"
+
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:padding="20sp"
+            android:layout_marginTop="100sp">
+
+            <ImageView
+                android:id="@+id/gallery"
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:contentDescription="@string/gallery_content"
+                android:padding="20sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gallery3" />
+
+
+            <ImageView
+                android:id="@+id/schemes"
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:contentDescription="document description"
+                android:padding="20sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/impdocs" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="  गॅलरी\nGallery"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="     योजना\n  Schemes"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/contact"
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:contentDescription="@string/contact_content"
+                android:padding="20sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/contact3" />
+
+
+            <ImageView
+                android:id="@+id/complaints"
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:contentDescription="@string/complaints_content"
+                android:padding="20sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/complaint3" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" संपर्क साधा\nContact Us"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" तक्रार नोंदवा\nComplaints"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/application"
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:contentDescription="@string/application_content"
+                android:padding="20sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/appliaction3" />
+
+
+            <ImageView
+                android:id="@+id/tax1"
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:clickable="true"
+                android:contentDescription="@string/paytax_content"
+                android:padding="20sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tax4" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="  अर्ज नमुना\nApplication"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" कर भरा\nPay Tax"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/village"
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:contentDescription="@string/village_content"
+                android:padding="20sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gram" />
+
+            <ImageView
+                android:id="@+id/committie"
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:contentDescription="@string/committee_content"
+                android:padding="20sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/committee" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="गावा विषयी\n   Village"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="       सदस्य\n   Committee"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/reqdoc"
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:contentDescription="@string/committee_content"
+                android:padding="20sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/requirements" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" pp   "
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="  महत्वाची कागपत्रे\n  Important Docs "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="   pp "
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </GridLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

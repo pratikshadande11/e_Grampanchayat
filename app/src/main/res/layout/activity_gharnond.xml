@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:orientation="vertical"
+    tools:context=".gharnond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ग्रामपंचायत घर नोंदणी अर्ज नमुना"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="@color/purple"
+            android:padding="10sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10sp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400sp"
+                android:src="@drawable/ghar"
+                android:id="@+id/gharnond1"
+                android:contentDescription="gharnond arj"/>
+            <Button
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:text="डाऊनलोड करा"
+                android:id="@+id/down1"
+                android:backgroundTint="@color/light_purple"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400sp"
+                android:src="@drawable/ghar2"
+                android:id="@+id/gharnond2"
+                android:contentDescription="gharnond arj2"/>
+            <Button
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:text="डाऊनलोड करा"
+                android:id="@+id/down2"
+                android:backgroundTint="@color/light_purple"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

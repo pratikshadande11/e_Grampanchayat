@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Village_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:padding="10sp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="गावा विषयी"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="280sp"
+                    android:layout_height="180sp"
+                    android:src="@drawable/village_pipri"
+                    android:contentDescription="grampanchayt"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="गावाविषयी"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="E-ग्रामपंचायात मध्ये आपले स्वागत आहे..."
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="20sp"
+                    android:text="बिडकीन ग्रामपंचायत ही छ. संभाजीनगर जिल्हा परिषदेच्या पैठण पंचायत समितीमधील एक ग्रामीण स्थानिक संस्था आहे. बिडकीन ग्रामपंचायतीच्या कार्यक्षेत्रात एकूण ३ गावे आहेत. ग्रामपंचायत पैठणची पुढील 6 प्रभागात विभागणी करण्यात आली आहे. ग्रामपंचायत पैठणमध्ये एकूण ३० शाळा आहेत."
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="@string/line3"
+                    />
+
+
+
+            </LinearLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20sp">
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="नाव:"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="बिडकीन"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="स्थानिक नाव:"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="बिडकीन"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="आंतर पंचायत:"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="पैठण"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ब्लॉक:"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="पैठण"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="जिल्हा पंचायत:"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="छ. संभाजीनगर"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="राज्य:"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="महाराष्ट्र"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LGD कोड:"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="170631"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        />
+
+                </TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="@string/line4"
+                    />
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="शाळा"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1"
+                android:padding="20sp">
+                <TableRow>
+                    <TextView
+                        android:text="शाळेचे नाव"
+                        android:textStyle="bold"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="कोड"
+                        android:gravity="right"
+                        android:textStyle="bold"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="दुर्गा हायस्कूल बिडकीन खाजगी"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="27190502022"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="ध्यानगंगा केंद्रीय आदिवासी निवासी शाळा"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="27190502031"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="जिनियस पब्लिक स्कूल, बिडकीन ता. पैठण"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="27190502033"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Zppsp बांगला तांडा स्थानिक संस्था प्राथमिक"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="27190502004"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

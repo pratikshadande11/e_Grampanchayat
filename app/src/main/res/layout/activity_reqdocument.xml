@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Schemess">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="महत्वाची कागपत्र"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:background="@color/purple"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/pahili"
+                android:contentDescription="gram_vikas_yojna"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/teen"
+                android:contentDescription="gram_vikas_yojna"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/chouthi"
+                android:contentDescription="gram_vikas_yojna"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/four"
+                android:contentDescription="gharkul_yojna"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/paach"
+                android:contentDescription="rojgar_yojna"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/saha"
+                android:contentDescription="rojgar_yojna"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/saath"
+                android:contentDescription="rojgar_yojna"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/aath"
+                android:contentDescription="rojgar_yojna"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/nau"
+                android:contentDescription="rojgar_yojna"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="अर्ज नमुना"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:background="@color/purple"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp">
+        <Button
+            android:id="@+id/gharmojni2"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/light_purple"
+            android:text="जमीन मोजणी अर्ज नमुना"/>
+
+        <Button
+            android:layout_marginTop="20sp"
+            android:id="@+id/gharnond"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/light_purple"
+            android:text="ग्रामपंचायत घर नोंदणी अर्ज नमुना"/>
+
+        <Button
+            android:layout_marginTop="20sp"
+            android:id="@+id/nalpani"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/light_purple"
+            android:text="नळ पाणी कनेक्शन अर्ज नमुना"/>
+
+    </LinearLayout>
+</LinearLayout>

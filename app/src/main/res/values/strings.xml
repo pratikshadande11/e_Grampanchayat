@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">E-Grampanchayat</string>
+    <string name="header_line">Welcome To E-Grampanchayat</string>
+    <string name="gallery_content">Gallery</string>
+    <string name="notification_content">Notification</string>
+    <string name="gallery">Gallery</string>
+    <string name="notification">Notification</string>
+    <string name="contact_content">Contact</string>
+    <string name="complaints_content">Complaints</string>
+    <string name="contact_us">Contact us!</string>
+    <string name="complaints">Complaints</string>
+    <string name="application_content">Application</string>
+    <string name="paytax_content">Paytax</string>
+    <string name="application">Application</string>
+    <string name="pay_tax">Pay Tax</string>
+    <string name="village_content">Village</string>
+    <string name="committee_content">Committee</string>
+    <string name="village">Village</string>
+    <string name="committee">Committee</string>
+    <string name="msg_token_fmt" />
+    <string name="fullAddress">मु. पो. बिडकीन,\nता. पैठण, जिल्हा. संभाजीनगर,\nपिन- ४३११०५</string>
+    <string name="patta">कार्यालयाचा पत्ता</string>
+    <string name="line">----------------------------------------------------------------</string>
+    <string name="line4">--------------------------------------------------------------------------</string>
+    <string name="timming">सोमवार ते शुक्रवार सकाळी १०.०० ते संध्याकाळी ०६.०० वाजेपर्यंत दर शनिवार व रविवार बंद</string>
+    <string name="line3">-----------------------------------------------------------------------------</string>
+</resources>

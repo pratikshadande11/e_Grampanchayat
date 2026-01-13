@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Schemess">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ग्रामपंचायत योजना"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:background="@color/purple"/>
+
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:src="@drawable/gramin_vikas"
+                    android:contentDescription="gram_vikas_yojna"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:src="@drawable/ramai_yojna"
+                    android:contentDescription="gram_vikas_yojna"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:src="@drawable/shabri_yojna"
+                    android:contentDescription="gram_vikas_yojna"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:src="@drawable/gharkul"
+                    android:contentDescription="gharkul_yojna"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:src="@drawable/rojgar"
+                    android:contentDescription="rojgar_yojna"/>
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
+
+
+
+    <!--    <ScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="20sp"-->
+    <!--            android:orientation="vertical">-->
+    <!--            <ImageView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="200sp"-->
+    <!--                android:src="@drawable/gramin_vikas"-->
+    <!--                android:contentDescription="gram_vikas_yojna"/>-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="200sp"-->
+    <!--                android:src="@drawable/ramai_yojna"-->
+    <!--                android:contentDescription="gram_vikas_yojna"/>-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="200sp"-->
+    <!--                android:src="@drawable/shabri_yojna"-->
+    <!--                android:contentDescription="gram_vikas_yojna"/>-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="200sp"-->
+    <!--                android:src="@drawable/gharkul"-->
+    <!--                android:contentDescription="gharkul_yojna"/>-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="200sp"-->
+    <!--                android:src="@drawable/rojgar"-->
+    <!--                android:contentDescription="rojgar_yojna"/>-->
+    <!--        </LinearLayout>-->
+    <!--    </ScrollView>-->

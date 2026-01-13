@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".document_avtivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="योजना"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@color/purple"
+            android:textColor="@color/white"
+            android:padding="10sp"
+            android:gravity="center"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp"
+        android:padding="5sp">
+        <Button
+            android:id="@+id/birth_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="जन्म दाखला\n  Birth Certificate"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:padding="10sp"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_pink"/>
+
+        <Button
+            android:id="@+id/death_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="मृत्यू दाखलाा\n Death Certificate"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:padding="10sp"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_pink"/>
+
+        <Button
+            android:id="@+id/mrg_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="विवाह नोंदणी\n   Marriage Certificate"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:padding="10sp"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_pink"/>
+
+        <Button
+            android:id="@+id/sampl_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="नमुना क्रमांक ८ चा दाखला\nCertificate of Sample No.8"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:padding="10sp"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_pink"/>
+
+        <Button
+            android:id="@+id/poverty_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="दारिद्र रेशेखलिल दाखला\nBelow poverty line certificate"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:padding="10sp"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_pink"/>
+
+
+        <Button
+            android:id="@+id/niradhar_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="निराधार दाखला\nCertificate of Niradhar"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:padding="10sp"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_pink"/>
+
+    </LinearLayout>
+
+</LinearLayout>
